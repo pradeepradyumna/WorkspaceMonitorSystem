@@ -6,6 +6,8 @@ import json
 import datetime
 import sys
 import getpass
+from firebase import firebase
+
 if sys.platform in ['Windows', 'win32', 'cygwin']:
     import win32gui
     import uiautomation as auto
@@ -102,9 +104,18 @@ try:
                 if not exists:
                     activity = Activity(active_id, activity_name, [time_entry])
                     activeList.activities.append(activity)
+                
+              
                 with open('activities.json', 'w') as json_file:
-                    json.dump(activeList.serialize(), json_file,
+                    app = firebase.FirebaseApplication('https://apptrack-b28fe.firebaseio.com/', None)  
+                    
+                      
+                    data = json.dump(activeList.serialize(), json_file,
                               indent=4, sort_keys=True)
+                            
+                    app.post('/Activites/',activeList.serialize()) 
+                    
+                             
                     start_time = datetime.datetime.now()
             first_time = False
             active_window_name = new_window_name
