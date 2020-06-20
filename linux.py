@@ -58,6 +58,7 @@ def get_chrome_url_x():
         instead of url the name of the website and the title of the page is returned seperated by '/' 
         '''
         detail_full = get_active_window_raw()
+        detail_full = detail_full.decode("utf-8")
         detail_list = detail_full.split(' - ')
         detail_list.pop()
         detail_list = detail_list[::-1]
