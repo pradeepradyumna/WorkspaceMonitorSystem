@@ -1,0 +1,135 @@
+{
+    "activities": [
+        {
+            "name": "autotimer.py - WorkspaceMonitorSystem - Visual Studio Code",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:00",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 7,
+                    "start_time": "2020-06-20 16:59:53"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:06",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2020-06-20 17:00:04"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:14",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2020-06-20 17:00:12"
+                }
+            ]
+        },
+        {
+            "name": "Telegram (10)",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:04",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 4,
+                    "start_time": "2020-06-20 17:00:00"
+                }
+            ]
+        },
+        {
+            "name": "Telegram (11)",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:12",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 6,
+                    "start_time": "2020-06-20 17:00:06"
+                }
+            ]
+        },
+        {
+            "name": "linux.py - WorkspaceMonitorSystem - Visual Studio Code",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:20",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 6,
+                    "start_time": "2020-06-20 17:00:14"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:40",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 10,
+                    "start_time": "2020-06-20 17:00:30"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:21",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 1,
+                    "start_time": "2020-06-20 17:00:20"
+                }
+            ]
+        },
+        {
+            "name": "WorkspaceMonitorSystem",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:25",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 4,
+                    "start_time": "2020-06-20 17:00:21"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:30",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2020-06-20 17:00:28"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:43",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 3,
+                    "start_time": "2020-06-20 17:00:40"
+                }
+            ]
+        },
+        {
+            "name": "__pycache__",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2020-06-20 17:00:28",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 3,
+                    "start_time": "2020-06-20 17:00:25"
+                }
+            ]
+        }
+    ]
+}
