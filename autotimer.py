@@ -5,6 +5,7 @@ from activity import *
 import json
 import datetime
 import sys
+import getpass
 if sys.platform in ['Windows', 'win32', 'cygwin']:
     import win32gui
     import uiautomation as auto
@@ -14,12 +15,16 @@ elif sys.platform in ['Mac', 'darwin', 'os2', 'os2emx']:
 elif sys.platform in ['linux', 'linux2']:
         import linux as l
 
+active_id = ""
 active_window_name = ""
 activity_name = ""
 start_time = datetime.datetime.now()
 activeList = AcitivyList([])
 first_time = True
 
+def get_active_id():
+    _active_id = getpass.getuser()
+    return _active_id
 
 def url_to_name(url):
     string_list = url.split('/')
@@ -68,6 +73,7 @@ except Exception:
 try:
     while True:
         previous_site = ""
+        active_id = get_active_id()
         if sys.platform not in ['linux', 'linux2']:
             new_window_name = get_active_window()
             if 'Google Chrome' in new_window_name:
@@ -77,7 +83,7 @@ try:
             if 'Google Chrome' in new_window_name:
                 new_window_name = l.get_chrome_url_x()
 
-        
+        # Add id condition
         if active_window_name != new_window_name:
             print(active_window_name)
             activity_name = active_window_name
@@ -94,7 +100,7 @@ try:
                         activity.time_entries.append(time_entry)
 
                 if not exists:
-                    activity = Activity(activity_name, [time_entry])
+                    activity = Activity(active_id, activity_name, [time_entry])
                     activeList.activities.append(activity)
                 with open('activities.json', 'w') as json_file:
                     json.dump(activeList.serialize(), json_file,

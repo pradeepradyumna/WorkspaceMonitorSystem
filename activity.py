@@ -1,4 +1,3 @@
-
 import datetime
 import json
 from dateutil import parser
@@ -22,6 +21,7 @@ class AcitivyList:
         for activity in data['activities']:
             return_list.append(
                 Activity(
+                    id = activity['id'],
                     name = activity['name'],
                     time_entries = self.get_time_entires_from_json(activity),
                 )
@@ -59,12 +59,14 @@ class AcitivyList:
 
 
 class Activity:
-    def __init__(self, name, time_entries):
+    def __init__(self, id, name, time_entries):
+        self.id = id
         self.name = name
         self.time_entries = time_entries
 
     def serialize(self):
         return {
+            'id' : self.id,
             'name' : self.name,
             'time_entries' : self.make_time_entires_to_json()
         }
