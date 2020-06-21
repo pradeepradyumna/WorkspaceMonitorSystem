@@ -75,6 +75,7 @@ This project is an amalgamation of the following themes:
 4. Do statistical analysis, build visualizations and plots for simple understaning based on the JSON data.
 5. Limiting number of data entries in the firebase.
 6. Admin Authentication to monitor the data.
+7. Need features in the reporting system like filtering records based on User/ Application/ Day
 
 ---
 
