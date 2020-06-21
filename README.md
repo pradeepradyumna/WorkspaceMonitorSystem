@@ -8,10 +8,10 @@ As remote working is a new culture, we might have challenges like
 3. Spending too much time in front of a computer can be stressful and demotivating at times. Plus it affects one's productivity too.
 4. End-user like a Manager can monitor how employees are spending time on the computer. Like what apps are they using too much? For example, if someone using Facebook/ Instagram too much or if somebody is spending too much time in front of the VS Code/ Eclipse.
 
-So, it is essential to monitor our work so
-1. We can be reminded on a timely basis that our health is important to be prompted to basic exercises/ light body movements to keep our body and mind fresh and healthy.
-2. We can be aware of the fact that how much time are we spending on particular applications and plan our work accordingly and effectively.
-
+Realtime usage of this project:
+1. It will monitor all the applications a user spends time on.
+2. It will send Desktop notification on a timely basis when user spends a little too much time on a particular application.
+3. It helps user to keep track the amount of time he/ she spends on apps and plan their work accordingly.
 
 Technical details:
 
