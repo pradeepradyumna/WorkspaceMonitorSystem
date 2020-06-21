@@ -1,5 +1,8 @@
 # WorkspaceMonitorSystem
- This project aims at providing healthy remote working space to employees. 
+
+Courtesy -  The base of this code base was referenced from https://github.com/KalleHallden/AutoTimer 
+
+This project aims at providing healthy remote working space to employees. 
  
 The idea behind this project:
 As remote working is a new culture, we might have challenges like
