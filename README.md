@@ -1,6 +1,6 @@
 # WorkspaceMonitorSystem
 
-Courtesy -  The base of this code base was referenced from https://github.com/KalleHallden/AutoTimer 
+
 
 This project aims at providing healthy remote working space to employees. 
  
@@ -40,7 +40,10 @@ How to run this program?
   b. It will run "autotimer.py" and it simply starts tracking all the applications we use and save the details as JSON object in "activities.json"
      
 
+Future scope:
+1. We need to be able to make customization/ settings like for which app I need to be notified if I spend more time. For instance, is a developer is working on VS Code all day, he shouldn't be notified of that saying he spent too much on it. Because it wouldn't make sense, as for a developer it is the application which he spends almost his entire day.
+2. The user should be rewarded for his time. For instance, say, a Manager uses the report and notices one of his team members is spent most of his time with VS Code (which means he was working) then he can be rewarded with points. Or say, Manager notices one of his team members is spent most of his time on Facebook, then he can warn them.
 
 
-
-
+References:
+We made customizations on this original codebase that we found here - https://github.com/KalleHallden/AutoTimer 
