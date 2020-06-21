@@ -3,3 +3,4 @@ clint==0.5.1
 python-dateutil==2.8.0
 pywin32==228; sys_platform == 'Windows' or sys_platform == 'win32' or sys_platform == 'cygwin'
 uiautomation==2.0.5
+plyer==1.4.3 
