@@ -7,6 +7,7 @@ import datetime
 import sys
 import getpass
 from firebase import firebase
+from plyer import notification
 
 if sys.platform in ['Windows', 'win32', 'cygwin']:
     import win32gui
@@ -105,7 +106,15 @@ try:
                     activity = Activity(active_id, activity_name, [time_entry])
                     activeList.activities.append(activity)
                 
-              
+                time_delta = (end_time - start_time)
+                total_seconds = time_delta.total_seconds()
+                minutes = total_seconds / 60
+                if minutes > 10:
+                    notification.notify(
+                        title='Hey there!',
+                        message='You spent too much time on ' + activity_name
+                        )
+
                 with open('activities.json', 'w') as json_file:
                     app = firebase.FirebaseApplication('https://apptrack-b28fe.firebaseio.com/', None)  
                     
