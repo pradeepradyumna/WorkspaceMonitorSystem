@@ -64,6 +64,8 @@ This project is an amalgamation of the following themes:
   * It will install the required packages
   * It will run autotimer.py and it simply starts tracking all the applications we use and save the details as JSON object in `activities.json`
 
+3. Finally, you can view your data on [THIS DASHBOARD](https://activity-dashboard.harsha-iiiv1.vercel.app/)
+
 ---   
 
 ## Future scope:
@@ -71,6 +73,8 @@ This project is an amalgamation of the following themes:
 2. The user should be rewarded for dedication. For instance, say, a Manager uses the report and notices one of his team members is spent most of his time with VS Code (which means he was working) then he can be rewarded with points. Or say, Manager notices one of his team members has spent most of his time on Facebook, then he can warn them.
 3. Categorical segregation of notifications. 'Good job' for spending more time on VSCode, 'Please get back to work' for spending time on Facebook and 'Kindly take some rest' for working continuously.
 4. Do statistical analysis, build visualizations and plots for simple understaning based on the JSON data.
+5. Limiting number of data entries in the firebase.
+6. Admin Authentication to monitor the data.
 
 ---
 
