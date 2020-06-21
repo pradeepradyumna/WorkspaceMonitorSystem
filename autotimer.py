@@ -113,8 +113,8 @@ try:
                     data = json.dump(activeList.serialize(), json_file,
                               indent=4, sort_keys=True)
                             
-                    app.post('/Activites/',activeList.serialize()) 
-                    
+                    # app.post('/Activites/',activeList.serialize()) 
+                    app.put('/Activites/-MAI3y9hAq5XloWo-dVQ','activities',activeList.serialize())   
                              
                     start_time = datetime.datetime.now()
             first_time = False
