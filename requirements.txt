@@ -5,3 +5,4 @@ pywin32==228; sys_platform == 'Windows' or sys_platform == 'win32' or sys_platfo
 uiautomation==2.0.5
 plyer==1.4.3 
 firebase==3.0.1
+python-jwt==3.2.6
