@@ -8,7 +8,7 @@ firebase==3.0.1
 python-jwt==3.2.6
 gcloud==0.18.3
 sseclient-py==1.7
-rsa==4.6
+rsa==4.7
 pycrypto==2.6.1
 pycryptodome==3.9.7; sys_platform == 'Windows' or sys_platform == 'win32' or sys_platform == 'cygwin' #pip install pycryptodome
 requests-toolbelt==0.9.1 #pip install requests-toolbelt
